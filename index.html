@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A little lavender letter</title>
+<meta name="description" content="A little lavender letter, just to make you smile.">
+<meta name="theme-color" content="#ede5f5"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2216%22 fill=%22%23744591%22/%3E%3Cpath d=%22M16 24h32v23H16z%22 fill=%22%23dbc9ec%22/%3E%3Cpath d=%22m16 24 16 14 16-14%22 fill=%22%23efdef9%22 stroke=%22%23744591%22 stroke-width=%222%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<section class="cover" id="cover" aria-label="Your unopened letter">
+<p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+<h1>For someone<br>a little <em>too cute.</em></h1>
+<p class="subtitle">Yes, you. Don’t act surprised ♡</p>
+<button class="envelope" id="envelope" aria-label="Open your letter"><span class="paper" aria-hidden="true">Just for you.</span><span class="flap" aria-hidden="true"></span><span class="front" aria-hidden="true"></span><span class="seal" aria-hidden="true">♡</span></button>
+<p class="hint">Tap the envelope to open your letter</p>
+<p class="small-note">A little lavender. A tiny excuse to make you smile.</p>
+</section>
+<section class="opened" id="opened" hidden aria-label="Your letter">
+<p class="eyebrow">JUST FOR YOU</p>
+<article class="letter">
+<span class="letter-heart" aria-hidden="true">♡</span>
+<p class="letter-label">Okay, so…</p>
+<h2 id="letterTitle" tabindex="-1">Hey, cutie.</h2>
+<p>I was going to send you a normal message, but apparently you’re worth making a whole little website for. So here we are.</p>
+<p>You already know I like you, so I’ll spare you another speech. But I will say this: <strong>you’re making it very hard for me to act cool.</strong></p>
+<p>I like talking to you. A lot. And if you ever catch me smiling at my phone… you can probably take the credit.</p>
+<p>Anyway, these little lavender flowers are for you. I hope they make you smile—even half as much as your messages make me smile would be pretty good.</p>
+<p class="signature">From someone trying to play it cool,<br><span>and clearly failing ♡</span></p>
+</article>
+<button class="surprise" id="surprise" aria-controls="extra" aria-expanded="false">P.S. One more thing… ♡</button>
+<div class="extra" id="extra" hidden><p class="eyebrow">A TINY REMINDER</p><h3>You’re really cute.</h3><p>That’s all. That’s the surprise. I just wanted an excuse to tell you again.</p><p class="extra-love">Now go have a lovely day, cutie ♡</p></div>
+<button class="again" id="again">Put the letter back</button>
+</section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+Extrae todos los archivos y abre index.html con Chrome, Edge o Safari.
+La carta y sus animaciones funcionan localmente. Las tipografías de Google requieren internet.
